@@ -1,0 +1,23 @@
+{
+  "name": "track-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "http://kirti210895swami.github.io/track-server",
+  "scripts": {
+    "dev": "nodemon node src/Index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "gh-pages": "^3.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.9",
+    "nodemon": "^2.0.6"
+  }
+}
